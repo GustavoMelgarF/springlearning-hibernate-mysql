@@ -26,5 +26,30 @@ public class Respuesta extends Item {
     @JsonIgnore
     private Pregunta pregunta;
 
-    // Getters and Setters (Omitted for brevity)
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getTexto() {
+		return texto;
+	}
+
+	public void setTexto(String texto) {
+		this.texto = texto;
+	}
+
+	public Pregunta getPregunta() {
+		return pregunta;
+	}
+
+	public void setPregunta(Pregunta pregunta) {
+		this.pregunta = pregunta;
+	}
+    
+    
+
 }
